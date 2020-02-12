@@ -1,0 +1,25 @@
+$siva: #333;
+$bela: #fff;
+$srednjeSiva: #666;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: $bela;
+    background: $siva;
+    line-height: 1.6em;
+}
+
+a {
+    color: $bela;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
