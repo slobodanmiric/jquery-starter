@@ -20,4 +20,46 @@ h1 {
   text-align: center;
 }
 
+#container {
+  width: 980px;
+  margin: 40px auto;
+}
+#container #slider {
+  width: 940px;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  padding: 3px;
+  border: 2ps solid #666;
+  border-radius: 5px;
+}
+#container #slider img {
+  width: 940px;
+  height: 350px;
+}
+#container #slider .slide {
+  position: absolute;
+}
+#container #slider .slide .slide-copy {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+}
+#container #prev, #container #next {
+  float: left;
+  margin-top: 150px;
+  cursor: pointer;
+  position: relative;
+  z-index: 100;
+}
+#container #prev {
+  margin-right: -45px;
+}
+#container #next {
+  margin-left: -45px;
+}
+
 /*# sourceMappingURL=style.css.map */

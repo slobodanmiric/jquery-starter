@@ -23,3 +23,56 @@ a {
 h1 {
     text-align: center;
 }
+
+#container {
+    width: 980px;
+    margin: 40px auto;
+    
+    #slider {
+        width: 940px;
+        height: 350px;
+        position: relative;
+        overflow: hidden;
+        float: left;
+        padding: 3px;
+        border: 2ps solid $srednjeSiva;
+        border-radius: 5px;
+        
+        img {
+            width: 940px;
+            height: 350px;
+        }
+        
+        .slide {
+            position: absolute;
+            
+            .slide-copy {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                padding: 20px;
+                background: rgba(0,0,0,0.6);
+            }
+            
+        }
+        
+    }
+    
+    #prev, #next {
+        float: left;
+        margin-top: 150px;
+        cursor: pointer;
+        position: relative;
+        z-index: 100;
+    }
+    
+    #prev {
+        margin-right: -45px;
+    }
+    #next {
+        margin-left: -45px;
+    }
+    
+}
+
+
